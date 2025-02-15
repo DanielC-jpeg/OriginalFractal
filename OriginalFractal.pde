@@ -21,7 +21,7 @@ public void strawberry(int x, int y, int len)
   if(len <= 200) {
    noFill();
    stroke(135,180,0);
-   rect(x,y,len,len); 
+   ellipse(x,y,len,len); 
 
   }
   
