@@ -27,8 +27,8 @@ public void strawberry(int x, int y, int len)
   
   else{
    strawberry(x,y,len/5);
-    strawberry(x+len/4,y-len/4,len-10);
-    strawberry(x-len/9,y+len/9,len-30);
+    strawberry(x+len/3,y-len/2,len-6);
+    strawberry(x-len/2,y+len/4,len-5);
     
   
   }
