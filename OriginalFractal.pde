@@ -15,20 +15,20 @@ public void draw() {
 
 
 
-public void strawberry(int x, int y, int x2, int y2, int x3, int y3, ) 
+public void strawberrya(int x, int y, int len) 
 {
   
-  if(len <= ) {
+  if(len <= 200) {
    noFill();
-
-   triangle(x,y,x2,y2,x3,y3); 
+   stroke((int)(Math.random() * 255),(int)(Math.random() * 255),(int)(Math.random() * 255));
+   rect(x,y,len,len); 
 
   }
   
   else{
-   strawberry(x,y,len/3561);
-        strawberry(x/2,y/6,x2-17,y2-5,x3/2,y3+8);
-    strawberry(x/3,y/6,x2-13,y2-15,x3/12,y3+12);
+   strawberrya(x,y,len/5);
+    strawberrya(x+len/4,y-len/4,len-10);
+    strawberrya(x-len/9,y+len/9,len-30);
     
   
   }
