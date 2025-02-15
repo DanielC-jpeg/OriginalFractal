@@ -20,7 +20,7 @@ public void strawberry(int x, int y, int x2, int y2, int x3, int y3, )
   
   if(len <= ) {
    noFill();
-   stroke(135,110,0);
+   stroke((int)(Math.random() * 255),(int)(Math.random() * 255),(int)(Math.random() * 255));
    triangle(x,y,x2,y2,x3,y3); 
 
   }
